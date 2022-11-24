@@ -1,7 +1,9 @@
+import ContextComponent from "../sub-components/contextApi-component/ContextComponent";
+
 function ContextApi() {
     return ( 
         <div className="context api">
-            This is Context API
+            <ContextComponent/>
         </div>
      );
 }
