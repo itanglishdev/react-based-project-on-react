@@ -12,7 +12,7 @@ Feel free to reach out for tips, tricks, errors, corrections. Feel free to fork 
 To learn React officially, check out the [React documentation](https://reactjs.org/).
 
 
-
+</br></br></br></br></br></br></br>
 
 
 In **no** way form or fashion this is a react.js **official documentation** 😂 . Just a nice project to end the Front End part of our course at DCI.
