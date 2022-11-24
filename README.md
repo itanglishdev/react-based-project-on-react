@@ -23,7 +23,7 @@ To learn React officially, check out the [React documentation](https://reactjs.o
 
 ## Coders
 
-[@itanglishdev](https://github.com/itanglishdev) [@Kairos22]() [@ju8ko](https://github.com/ju8ko)
+[@itanglishdev](https://github.com/itanglishdev) [@Kairos22](https://github.com/Kairos22) [@ju8ko](https://github.com/ju8ko)
 
 
 
