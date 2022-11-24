@@ -3,6 +3,7 @@ import ReUsableUi from '../sub-components/components-sub-components/ReUsableUI';
 import Props from '../sub-components/components-sub-components/Props';
 import ChildrenSection from '../sub-components/components-sub-components/ChildrenSection'
 import ComponentsSection from '../sub-components/components-sub-components/ComponentsSection';
+import RenderingData from '../sub-components/components-sub-components/RenderingData';
 
 
 
@@ -15,6 +16,7 @@ function Components() {
             <Props/>
             <ChildrenSection/>
             <ReUsableUi/>
+            <RenderingData/>
         </div>
      );
 }
