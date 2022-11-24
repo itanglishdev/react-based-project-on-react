@@ -32,4 +32,4 @@ To learn React officially, check out the [React documentation](https://reactjs.o
 
 
 
-[^1]: In ==no== way form or fashion this is a react.js ==official documentation== 😂 . Just a nice project to end the Front End part of our course at DCI.
+In ==no== way form or fashion this is a react.js ==official documentation== 😂 . Just a nice project to end the Front End part of our course at DCI.
