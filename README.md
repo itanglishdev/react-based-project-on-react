@@ -1,8 +1,10 @@
 # React.js based project on React.js
 
 **A mouth full**, right?
+</br>
 
-This project was based on learning React by building a React app, trying to explaing React as Full Stack Web Developer students, to others that still struggle to get to appreciate it's potential. We hope this helps!
+This project was based on learning React by building the React app, trying to explaing React as Full Stack Web Developer students, to others that still struggle to get to appreciate it's potential. We hope this helps!
+</br>
 
 A great journey, a nice deep dive in to basic/mid tech surrounding the subject. Many hours of research to be able to get to learn better this very important and marketable skill.
 
