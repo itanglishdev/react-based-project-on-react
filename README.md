@@ -14,22 +14,9 @@ To learn React officially, check out the [React documentation](https://reactjs.o
 
 
 
-
-
-
-
-
-
-
+<br>
+In **no** way form or fashion this is a react.js **official documentation** 😂 . Just a nice project to end the Front End part of our course at DCI.
+<br>
 ## Coders
 
 [@itanglishdev](https://github.com/itanglishdev) [@Kairos22](https://github.com/Kairos22) [@ju8ko](https://github.com/ju8ko)
-
-
-
-
-
-
-
-
-In ==no== way form or fashion this is a react.js ==official documentation== 😂 . Just a nice project to end the Front End part of our course at DCI.
