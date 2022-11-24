@@ -4,6 +4,7 @@ import Props from '../sub-components/components-sub-components/Props';
 import ChildrenSection from '../sub-components/components-sub-components/ChildrenSection'
 import ComponentsSection from '../sub-components/components-sub-components/ComponentsSection';
 import RenderingData from '../sub-components/components-sub-components/RenderingData';
+import FragmentsSection from '../sub-components/components-sub-components/FragmentsSection';
 
 
 
@@ -17,6 +18,7 @@ function Components() {
             <ChildrenSection/>
             <ReUsableUi/>
             <RenderingData/>
+            <FragmentsSection/>
         </div>
      );
 }
