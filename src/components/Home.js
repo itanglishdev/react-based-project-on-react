@@ -4,7 +4,7 @@ function Home() {
     return ( 
         <div className="home">
             <h1>Welcome to the React app, where to learn how to build a React app</h1>
-            <h3>Addressed to people that do not enjoy React, but want to learn React</h3>
+            <h3>Addressed to people who do not enjoy React (...yet), but want to learn React</h3>
             <section>
                 <p>First and foremost, this is a beginner friendly guide and does not want to substitute the official React <a href="https://beta.reactjs.org/"> documentation</a> . It is an extrapolation of it, build by three Junior Web Developers to try and master it themselves.</p>
                 <p>We really hope it helps!</p>
