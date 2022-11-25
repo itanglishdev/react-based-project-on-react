@@ -1,6 +1,6 @@
 function State() {
     return ( 
-        <div className="state">
+        <div className="state  right-side-main">
             This is the state
         </div>
      );

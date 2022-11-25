@@ -7,7 +7,7 @@ import CreateReactComponent from '../sub-components/components-sub-components/Cr
 function ReactBasics() {
     
   return (
-    <div className="react-basics">
+    <div className="react-basics  right-side-main">
       <h1>React Basics</h1>
       <section>
         <h3>How to install</h3>

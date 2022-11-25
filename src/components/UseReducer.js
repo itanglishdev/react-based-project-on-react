@@ -1,6 +1,6 @@
 function UseReducer() {
     return ( 
-        <div className="use-reducer">
+        <div className="use-reducer  right-side-main">
             This is useReducer
         </div>
      );

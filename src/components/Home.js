@@ -2,7 +2,7 @@ import {FaReact } from 'react-icons/fa'
 
 function Home() {
     return ( 
-        <div className="home">
+        <div className="home right-side-main">
             <h1>Welcome to the React app, where to learn how to build a React app</h1>
             <h3>Addressed to people who do not enjoy React (...yet), but want to learn React</h3>
             <section>
