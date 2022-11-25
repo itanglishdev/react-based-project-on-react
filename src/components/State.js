@@ -8,7 +8,7 @@ import updateState from "../images/updateState.png";
 function State() {
 
   return (
-    <div className="hooks">
+    <div className="hooks right-side-main">
       <section className="hook">
         <h4>What is a Hook?</h4>
         <p>
