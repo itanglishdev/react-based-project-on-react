@@ -1,1 +1,26 @@
+/*            CSS RESET */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#root {
+    display: flex;
+    position: relative;
+}
+.navBar {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4;
+    align-items: center;
+    text-decoration: none;
+    width: 25%;
+    height: 100vh;
+    min-width: 250px;
+    max-width: 500px;
+}
