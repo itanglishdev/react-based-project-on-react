@@ -4,7 +4,7 @@ import React from "react";
 function UseReducer() {
 
   return (
-    <div className="use-reducer">
+    <div className="use-reducer  right-side-main">
       <h1 className="use_reducer_h1">UseReducer</h1>
       <div className="reduce_img">
         <img src={reduceImage} alt="reducer-img" />

@@ -4,7 +4,7 @@ import htmlImage from "../images/html-event.png";
 function EventListeners() {
 
   return (
-    <div className="event-listener">
+    <div className="event-listener  right-side-main">
       <section className="react-event">
         <h2 className="reactEvent_h2">React Events</h2>
         <p className="reactEvent_p">

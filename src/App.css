@@ -1,3 +1,10 @@
+/**
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Almarai', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'VT323', monospace;
+**/
+
 /*            CSS RESET */
 
 * {
@@ -14,17 +21,23 @@
     color: rgb(211, 228, 244);
     background-color: rgb(40, 58, 91);
 }
-
+/* ? adding the font */
+/* !don't forget adding the font */
 .navBar {
+    font-family:  'VT323', 'Kalam', monospace;
+    /* text-shadow:  h-shadow v-shadow blur-radius ; */
+    font-size: 600;
     position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
     align-items: center;
-    /* text-decoration: none; */
-    width: 25%;
-    height: 100vh;
+    width: 20%;
+    height: 900px;
+    /* margin-top: 200px; */
+    /* margin-bottom: auto; */
     min-width: 250px;
     max-width: 500px;
 }
@@ -60,7 +73,13 @@ a {
 }
 
 a:hover {
-    text-transform: capitalize;
+    text-transform: initial;
+    -webkit-box-shadow: -9px -6px 15px -1px rgba(0,0,0,0.57); 
+    box-shadow: -9px -6px 15px -1px rgba(0,0,0,0.57);
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
 }
 
 code {
