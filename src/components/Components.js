@@ -10,7 +10,7 @@ import FragmentsSection from '../sub-components/components-sub-components/Fragme
 
 function Components() {
     return ( 
-        <div className="components">
+        <div className="components  right-side-main">
             <h1>Components</h1>
             <ComponentsSection/>
             <CreateReactComponent/>

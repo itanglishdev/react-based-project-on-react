@@ -2,6 +2,7 @@ import reduceImage from "../images/reducer-img.png";
 import React from "react";
 
 function UseReducer() {
+
   return (
     <div className="use-reducer">
       <h1 className="use_reducer_h1">UseReducer</h1>

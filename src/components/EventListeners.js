@@ -2,6 +2,7 @@ import eventImage from "../images/react-event.png";
 import htmlImage from "../images/html-event.png";
 
 function EventListeners() {
+
   return (
     <div className="event-listener">
       <section className="react-event">
@@ -32,6 +33,7 @@ function EventListeners() {
       </section>
     </div>
   );
+
 }
 
 export default EventListeners;

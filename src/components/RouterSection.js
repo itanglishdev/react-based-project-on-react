@@ -6,7 +6,7 @@ import UseNavigateSection from "../sub-components/router-sub-components/UseNavig
 
 function RouterSection() {
     return ( 
-        <div className="router-section">
+        <div className="router-section  right-side-main">
             <SetUp/>
             <LinkSection/>
             <UseNavigateSection/>
