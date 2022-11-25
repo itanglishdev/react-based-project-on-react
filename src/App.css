@@ -1,3 +1,10 @@
+/**
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Almarai', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'VT323', monospace;
+**/
+
 /*            CSS RESET */
 
 * {
@@ -14,8 +21,12 @@
     color: rgb(211, 228, 244);
     background-color: rgb(40, 58, 91);
 }
-
+/* ? adding the font */
+/* !don't forget adding the font */
 .navBar {
+    font-family:  'VT323', 'Kalam', monospace;
+    /* text-shadow:  h-shadow v-shadow blur-radius ; */
+    font-size: 600;
     position: sticky;
     top: 0;
     display: flex;
