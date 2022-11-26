@@ -7,7 +7,7 @@ import setUseParams3 from '../../images/setUseParams3.png'
 function ParamsSection() {
     return ( 
         <section className="params-section">
-            <h2><code>useParams</code> to create dynamic routes</h2>
+            <h2>Use useParams to create dynamic routes</h2>
             <p>Extremely useful when we have to display the appropriate data, for example, from a list of products we are selling or displaying in our app. We must prefix a <code>:</code> and then identify a name or a detail that we can use to identify the data from the item/product and it's data we want to render. Let's say in this example in this blog. </p>
             <div>
                 <img src={setUseParams} alt="set up" />

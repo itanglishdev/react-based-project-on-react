@@ -12,7 +12,7 @@ function SetUp() {
             <code>import {"{"} BrowserRouter {"}"} from 'react-router-dom</code>
             <p>at the top of your file and wrap your App with it</p>
             <div>
-                <img src={BrowseRouterSetup} alt="setup" />
+                <img className='outlet__image' src={BrowseRouterSetup} alt="setup" />
             </div>
         </section>
         <section>
@@ -20,7 +20,7 @@ function SetUp() {
             <p>Head to your App component, import <code>Routes Route</code> , wrap your <code>Route</code>  with <code>Routes</code></p>
             <p>Each single Route will be the path (connection) to your component. In this case we have  <code>Home About Contact</code> </p>
             <div>
-                <img src={routesRoute} alt="" />
+                <img className='outlet__image' src={routesRoute} alt="" />
             </div>
         </section>
       </>

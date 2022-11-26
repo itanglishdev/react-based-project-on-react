@@ -19,7 +19,7 @@ font-family: 'VT323', monospace;
 #root {
     display: flex;
     position: relative;
-    color: rgb(211, 228, 244);
+    color: rgb(240, 232, 232);
     background-color: rgb(40, 58, 91);
     font-family: 'ABeeZee', sans-serif;
 }
@@ -69,10 +69,11 @@ font-family: 'VT323', monospace;
     /* -webkit-box-shadow: -9px -6px 15px -1px rgba(63, 62, 62, 0.57); 
     box-shadow: -9px -6px 15px -1px rgba(87, 81, 81, 0.57); */
     background-color: rgb(40, 58, 91,0.7);
-    color: rgb(211, 228, 244); 
+    color: rgb(240, 232, 232); 
 }
 .navbar-link:active {
     text-decoration: underline;
+    opacity: .8;
 }
 
 
@@ -104,6 +105,8 @@ img {
 
 .reduce_img {
     width: 80%;
+}
+.outlet__image, .reduce_img {
     opacity: 0.9;
 }
 
@@ -119,5 +122,5 @@ h1, h2, h3, p {
 }
 
 code {
-    color:rgb(197, 220, 242);
+    color:whitesmoke;
 }
