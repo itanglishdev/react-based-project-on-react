@@ -1,5 +1,7 @@
 import eventImage from "../images/react-event.png";
 import htmlImage from "../images/html-event.png";
+import onchangeImage from "../images/onChange.png";
+import onsubmitImage from "../images/onSubmit.png";
 
 function EventListeners() {
 
@@ -29,6 +31,23 @@ function EventListeners() {
           <div className="html-event_img">
             <img src={htmlImage} alt="" />
           </div>
+          <section>
+            <p className="onChange_p">
+              <em>onChange</em>
+            </p>
+            <div className="onChange_img">
+              <img src={onchangeImage} alt="" />
+            </div>
+          </section>{" "}
+          <br />
+          <section>
+            <p className="onSubmit_p">
+              <em>onSubmit</em>
+            </p>
+            <div className="onSubmit_img">
+              <img src={onsubmitImage} alt="" />
+            </div>
+          </section>
         </section>
       </section>
     </div>

@@ -1,10 +1,12 @@
 import reduceImage from "../images/reducer-img.png";
+import reduceImage1 from "../images/reduce1.png";
+import reduceImage2 from "../images/reduce2.png";
+import reduceImage3 from "../images/reduce3.png";
 import React from "react";
 
 function UseReducer() {
-
   return (
-    <div className="use-reducer  right-side-main">
+    <div className="use-reducer right-side-main">
       <h1 className="use_reducer_h1">UseReducer</h1>
       <div className="reduce_img">
         <img src={reduceImage} alt="reducer-img" />
@@ -15,12 +17,13 @@ function UseReducer() {
           like the <em>useState</em> Hook. It accepts a <em>reducer</em>{" "}
           function as its first parameter and the initial state as the second.
         </p>
-        <div className="code-section">
-          {" "}
-          <code>
-            const [state, dispatch] = useReducer(reducer, initialState)
-          </code>{" "}
+      </section>
+      <section>
+        <div className="reduce_img">
+          <img src={reduceImage1} alt="" />
         </div>
+      </section>
+      <section>
         <div>
           <h3 className="use_reducer_h3">The dispatch method</h3>
           <p className="use_reducer_p">
@@ -37,57 +40,31 @@ function UseReducer() {
             The dispatch is the second value returned from the useReducer Hook
             and can be used in our JSX to update the state:
           </p>
-          <div className="code-section">
-            <code></code>
-          </div>
         </div>
+      </section>
+      <section>
+        <h3 className="use_reducer_h3">The reducer function</h3>
+        <p className="use_reducer_p">
+          The reducer function itself accepts two parameters and returns one
+          value. The first parameter is the current state, and the second is the
+          action. The state is the data we are manipulating. The reducer
+          function receives an action, which is executed by a dispatch function:
+        </p>
+        <div className="code-section">
+          <img src={reduceImage2} alt="" />
+        </div>
+      </section>
 
-        <div>
-          <h3 className="use_reducer_h3">The reducer function</h3>
-          <p className="use_reducer_p">
-            The reducer function itself accepts two parameters and returns one
-            value. The first parameter is the current state, and the second is
-            the action. The state is the data we are manipulating. The reducer
-            function receives an action, which is executed by a dispatch
-            function:
-          </p>
-          <div className="code-section">
-            <code>
-              function reducer(state, action) {`{`} {`}`} {``}
-              dispatch({`{`} type: 'increment' {`}`})
-            </code>
-            <p className="use_reducer_p">
-              The action is like an instruction you pass to the reducer
-              function. Based on the specified action, the reducer function
-              executes the necessary state update. If you’ve used a state
-              management library like Redux before, then you must have come
-              across this pattern of state management.
-            </p>
-          </div>
-          <div className="code-section">
-            <code>
-              import {"{"}useReducer{"}"}
-              from 'react';
-            </code>
-          </div>
-          <br />
-          <div className="code-section">
-            <code>
-              function reducer(state, action)
-              {
-                // ...
-              }
-            </code>
-          </div>
-          <br />
-          <div className="code-section">
-            <code>
-              function MyComponent() {"{"}
-              const [state, dispatch] = useReducer(reducer, {"{"} age: 42 {"}"}
-              ); {"}"}
-            </code>{" "}
-          </div>
-          <br />
+      <section>
+        <p className="use_reducer_p">
+          The action is like an instruction you pass to the reducer function.
+          Based on the specified action, the reducer function executes the
+          necessary state update. If you’ve used a state management library like
+          Redux before, then you must have come across this pattern of state
+          management.
+        </p>
+        <div className="reduce_img">
+          <img src={reduceImage3} alt="" />
         </div>
       </section>
     </div>
