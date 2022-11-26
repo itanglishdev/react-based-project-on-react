@@ -48,7 +48,7 @@ font-family: 'VT323', monospace;
     background-color: rgb(56, 82, 129);
     background-image: url("images/logo-react-svgrepo-com.svg");
     background-repeat: no-repeat, repeat;
-    background-position: right;
+    background-position: left;
 }
 
 .navbar-link {
