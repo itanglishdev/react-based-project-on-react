@@ -6,11 +6,10 @@ import importState from "../images/importstate.png";
 import updateState from "../images/updateState.png";
 
 function State() {
-
   return (
     <div className="hooks right-side-main">
       <section className="hook">
-        <h4>What is a Hook?</h4>
+        <h2>What is a Hook?</h2>
         <p>
           A Hook is a special function that lets you “hook into” React features.
           For example, <em>useState</em> is a Hook that lets you add React state
@@ -18,7 +17,7 @@ function State() {
         </p>
       </section>
       <section className="useState">
-        <h1 className="use_state_h1">useState</h1>
+        <h3 className="use_state_h1">useState</h3>
         <div>
           <p>
             React components will often need dynamic information in order to
@@ -59,7 +58,7 @@ function State() {
         </div>
       </section>
       <section className="use-effect">
-        <h2 className="use_effect_h2">useEffect</h2>
+        <h3 className="use_effect_h2">useEffect</h3>
         <p>
           The <em>Effect Hook</em> lets you perform side effects in function
           components, using this <em>Hook</em>, you tell <em>React</em> that

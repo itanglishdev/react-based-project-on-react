@@ -7,7 +7,7 @@ import React from "react";
 function UseReducer() {
   return (
     <div className="use-reducer right-side-main">
-      <h1 className="use_reducer_h1">UseReducer</h1>
+      <h2 className="use_reducer_h1">UseReducer</h2>
       <div className="reduce_img">
         <img src={reduceImage} alt="reducer-img" />
       </div>
@@ -59,9 +59,9 @@ function UseReducer() {
         <p className="use_reducer_p">
           The action is like an instruction you pass to the reducer function.
           Based on the specified action, the reducer function executes the
-          necessary state update. If you’ve used a state management library like
-          Redux before, then you must have come across this pattern of state
-          management.
+          necessary state update. If you have used a state management library
+          like Redux before, then you must have come across this pattern of
+          state management.
         </p>
         <div className="reduce_img">
           <img src={reduceImage3} alt="" />
