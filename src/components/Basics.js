@@ -42,7 +42,7 @@ function ReactBasics() {
         </div>
       </section>
       <section className="react-basics__npm">
-        <h3>Start the project</h3>
+        <h2>Start the project</h2>
         <p>Next step is to type the following code to acces your project in real
           time
         </p>
@@ -55,7 +55,7 @@ function ReactBasics() {
       </section>
       <CreateReactComponent/>
       <section className="react-basics__jsx">
-        <h3>Writing JSX</h3>
+        <h2>Writing JSX</h2>
         <p>Be prepared to write code in JSX, that is HTML with a twist and flavoured with JavaScript. Confusing at first, I know, but nothing simpler:</p>
         <p>similar semantic to HTML but by adding JavaScript context in within curly brackets ({"{"}like this{"}"})</p>
       </section>
