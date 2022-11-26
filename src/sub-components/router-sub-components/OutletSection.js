@@ -6,7 +6,7 @@ import Outlet4 from '../../images/Outlet4.png'
 function OutletSection() {
     return ( 
         <section className="outlet">
-            <h3>What is <code>Outlet</code> ?</h3>
+            <h2>What is <code>Outlet</code> ?</h2>
             <p>It is nothing but a place holder that allows child Routes components to be rendered. Not like <code>children</code>, it is used only for this scope.</p>
             <div>
                 <img src={Outlet1} alt="Outlet1" />

@@ -7,7 +7,7 @@ function ContextComponent() {
 
     return (
         <section className="context">
-            <h3>Context</h3>
+            <h2>Context</h2>
             <p>To avoid passing props down and more than two levels (props drilling) and through sibling components, we do have to add context and useContext to our arsenal. </p>
             <p>We use it manage global data, global state, theme, settings, authentication and more. Basically what we would like to reuse in other parts of our app</p>
             <p>Using context in <code>react</code> rquires <em>creating</em>, <em>providing</em> and <em>consuming</em> the context</p>
