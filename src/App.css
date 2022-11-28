@@ -40,7 +40,7 @@ font-family: 'VT323', monospace;
     gap: 40px;
     align-items: center;
     width: 20%;
-    height: 975px;
+    height: 980px;
     /* margin-top: 200px; */
     /* margin-bottom: auto; */
     min-width: 250px;
@@ -140,5 +140,5 @@ em {
     color: rgb(197, 220, 242);
     text-align: center;
     font-size: 0.7rem;
-    
+    margin-left: 30px;
 }
