@@ -86,30 +86,12 @@ code {
     color:rgb(197, 220, 242)
 }
 
-.footer {
-    padding-top: 2rem;
-        padding-bottom: 2rem;
-        background: #8073c50a;
-}
-.footer1 {
-    display: grid;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        border-bottom-width: 2px;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+.page-container {
+    position: absolute;
+    bottom: 0rem;
+    color: rgb(197, 220, 242);
+    text-align: center;
+    font-size: 0.7rem;
     
-    
-        @media (min-width: 768px) {
-            grid-template-columns: repeat(6, minmax(0, 1fr));
-        }
-}
-.react-buttom {
-    padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        font-weight: 700;
-        text-transform: uppercase;
-}
-.react-elements {
-    padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
 }
