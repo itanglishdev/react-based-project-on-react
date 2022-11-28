@@ -10,21 +10,18 @@ function UseReducer() {
     <div>
       <div className="use-reducer right-side-main">
         <h2 className="use_reducer_h1">UseReducer</h2>
-        <div className="reduce_img">
-          <img src={reduceImage} alt="reducer-img" />
-        </div>
+
         <section>
           <p className="use_reducer_p">
             The <em>useReducer</em> Hook is used to store and update states,
             just like the <em>useState</em> Hook. It accepts a <em>reducer</em>{" "}
             function as its first parameter and the initial state as the second.
           </p>
-        </section>
-        <section>
           <div className="reduce_img">
-            <img src={reduceImage1} alt="" />
+            <img src={reduceImage} alt="reducer-img" />
           </div>
         </section>
+        <section></section>
         <section>
           <div>
             <h3 className="use_reducer_h3">The dispatch method</h3>
@@ -43,6 +40,9 @@ function UseReducer() {
               value returned from the useReducer Hook and can be used in our JSX
               to update the state:
             </p>
+            <div className="reduce_img">
+              <img src={reduceImage1} alt="" />
+            </div>
           </div>
         </section>
         <section>
