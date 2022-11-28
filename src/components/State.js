@@ -10,22 +10,22 @@ function State() {
   return (
     <div className="hooks right-side-main">
       <section className="hook">
-        <h4>What is a Hook?</h4>
+        <h2>What is a Hook?</h2>
         <p>
           A Hook is a special function that lets you “hook into” React features.
           For example, <em>useState</em> is a Hook that lets you add React state
-          to function components.{" "}
+          to function component.{" "}
         </p>
       </section>
       <section className="useState">
-        <h1 className="use_state_h1">useState</h1>
+        <h2 className="use_state_h1">useState</h2>
         <div>
           <p>
             React components will often need dynamic information in order to
-            render. For example, imagine a component that displays the score of
+            render. For example: imagine a component that displays the score of
             a basketball game. The score of the game might change over time,
             meaning that the score is dynamic. Our component will have to know
-            the score, a piece of dynamic information, in order to render in a
+            the score, a piece of dynamic information, in order to render it in a
             useful way.
           </p>
           <p>
@@ -33,7 +33,7 @@ function State() {
             <em>props</em> and <em>state</em>.
           </p>
           <div className="state_img">
-            <img src={useStateImage1} alt="" />
+            <img className="use-state__image" src={useStateImage1} alt="" />
           </div>
           <section className="importState">
             <h3 className="use_state_h2">
@@ -48,12 +48,12 @@ function State() {
             </div>
           </section>
           <section className="updatestate">
-            <h3 className="updatestate_h3">Update State</h3>
+            <h2 className="updatestate_h3">Update State</h2>
             <p className="updatestate_p">
               To update our state, we use our state updater function.
             </p>
             <div className="updateState_img">
-              <img src={updateState} alt="" />
+              <img className="use-state__image" src={updateState} alt="" />
             </div>
           </section>
         </div>
@@ -66,18 +66,18 @@ function State() {
           your component needs to do something after render.
         </p>
         <div className="effect_img">
-          <img src={useEffectImage1} alt="" />
+          <img className="use-state__image" src={useEffectImage1} alt="" />
         </div>
         <div>
-          <h4>Runs on every render</h4>
+          <p>Runs on every render</p>
           <div className="effect_img">
-            <img src={useEffectImage2} alt="" />
+            <img className="use-state__image" src={useEffectImage2} alt="" />
           </div>
         </div>
         <div>
-          <h4>Props or state values</h4>
+          <p>Props or state values</p>
           <div className="effect_img">
-            <img src={useEffectImage3} alt="" />
+            <img className="use-state__image" src={useEffectImage3} alt="" />
           </div>
         </div>
       </section>

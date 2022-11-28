@@ -31,7 +31,7 @@ font-family: 'VT323', monospace;
 .navBar {
     /* font-family:  'Kalam', monospace; */
     /* text-shadow:  h-shadow v-shadow blur-radius ; */
-    font-size: 600;
+    /* font-size: 2rem; */
     position: sticky;
     top: 0;
     display: flex;
@@ -57,11 +57,11 @@ font-family: 'VT323', monospace;
     /* color: rgb(211, 228, 244); */
     color: whitesmoke;
     text-transform: lowercase;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     font-weight: 900;
     letter-spacing: 1.1px;
     padding: 12px;
-    border-radius: 5px;
+    border-radius: 0px 12px;
 }
 
 .navbar-link:hover {
@@ -85,7 +85,7 @@ font-family: 'VT323', monospace;
     position: relative;
     margin: 60px 90px;
     padding: auto 55px;
-    max-width: 80%;
+    max-width: 85%;
     max-width: 800px;
     /* min-width: 90vw; */
 }
@@ -106,9 +106,11 @@ img {
 .reduce_img {
     width: 80%;
 }
-.outlet__image, .reduce_img {
+.outlet__image, .reduce_img, .use-state__image {
     opacity: 0.9;
 }
+
+/*         TEXT  */
 
 a {
     text-decoration: none;
@@ -122,5 +124,11 @@ h1, h2, h3, p {
 }
 
 code {
-    color:whitesmoke;
+    color:white;
+    background-color: rgba(24, 38, 65);
+    font-size: .95rem;
+}
+
+em {
+    font-weight: bold;
 }
