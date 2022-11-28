@@ -8,7 +8,7 @@ function EventListeners() {
   return (
     <div className="event-listener  right-side-main">
       <section className="react-event">
-        <h2 className="reactEvent_h2">React Events</h2>
+        <h2 className="reactEvent_h2">Events Listeners</h2>
         <p className="reactEvent_p">
           Just like <em>HTML DOM</em> events, <em>React</em> can perform actions
           based on user events. <em>React</em> has the same events as HTML:{" "}
