@@ -132,3 +132,13 @@ code {
 em {
     font-weight: bold;
 }
+
+
+.page-container {
+    position: absolute;
+    bottom: 0rem;
+    color: rgb(197, 220, 242);
+    text-align: center;
+    font-size: 0.7rem;
+    
+}
